@@ -20,6 +20,11 @@
   border: 5px solid #700;
 }
 
+.columns > div > .columns-img-col-many img {
+  display: block;
+  border: 5px solid #070;
+}
+
 @media (width >= 900px) {
   .columns > div {
     align-items: center;

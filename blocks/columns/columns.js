@@ -11,6 +11,9 @@ export default function decorate(block) {
         if (picWrapper && picWrapper.children.length === 1) {
           // picture is only content in column
           picWrapper.classList.add('columns-img-col');
+        } else if (picWrapper && picWrapper.children.length > 1) {
+          // more than one content item in column
+          picWrapper.classList.add('columns-img-col-many');
         }
       }
     });
