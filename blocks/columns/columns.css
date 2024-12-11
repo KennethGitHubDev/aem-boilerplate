@@ -22,7 +22,7 @@
 
 .columns > div > .columns-img-col-many img {
   display: block;
-  border: 5px solid #007;
+  border: 5px solid #070;
 }
 
 @media (width >= 900px) {
